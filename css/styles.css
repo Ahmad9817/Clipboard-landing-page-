@@ -1,0 +1,277 @@
+/* General Styles */
+
+body {
+  margin: 0;
+  font-family: 'Bai Jamjuree', sans-serif;
+  text-align: center;
+  color: #9FABB2;
+  font-size: 1rem;
+  width: 100%
+}
+
+h1, h2 {
+  font-weight: 600;
+  color: #4C545D;
+  line-height: 1.5;
+}
+
+h5 {
+  font-weight: 600;
+  color: #4C545D;
+}
+
+
+.padding-type-1 {
+  padding:6% 27% 3%;
+}
+
+.padding-type-2 {
+  padding: 6% 10% 3%;
+  max-width: 100%;
+}
+
+
+/* DOwnload Button */
+
+.button-div  {
+  text-align: center;
+  width: 180px;
+  display: inline-block;
+
+}
+.btn {
+  border-radius: 5rem;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 0.5rem 1.5rem;
+  margin-left: 5%;
+  border-bottom: groove;
+  width: 95%
+}
+
+
+.ios-btn {
+  background-color: #26BAA4;
+  border-color: #13BAA1;
+}
+
+.mac-btn {
+  background-color: #6173FF;
+  border-color: #475CFF;
+}
+
+
+
+
+
+
+/* Title Section */
+
+.title-text {
+  padding-bottom: 1.5rem;
+}
+
+.background-img {
+  position: absolute;
+  max-width: 100%;
+}
+
+
+
+.logo-img {
+  margin-bottom: 3.5rem;
+}
+
+.title-background-image {
+  max-width: 100%;
+}
+
+
+/* Keep Track Section */
+
+.keep-track {
+  max-width: 100%;
+}
+
+.track-row {
+  text-align: left;
+  max-width: 100%;
+  margin-left: 0;
+}
+
+.padding-type-track {
+  padding:0 27% 3%;
+}
+
+.keep-track-text {
+  padding: 4rem 12rem 5rem 5rem;
+}
+
+.keep-track {
+  padding: 6% 0 3%;
+}
+
+.image-widths {
+  max-width: 100%;
+}
+
+.computer-image {
+  padding: 0;
+}
+
+.track-text {
+  line-height: 1.7;
+  margin: 0;
+}
+
+.text-margin {
+  padding-bottom: 2rem;
+}
+
+/* Access Clipboard Section */
+
+.access-text {
+  margin-bottom: 5rem;
+}
+
+/* Workflow Section */
+
+.workflow {
+  max-width: 100%;
+}
+
+.promoters-col {
+  display: inline-block;
+  margin: 0 3%;
+}
+
+.workflow-text {
+  padding-bottom: 3rem;
+}
+
+.workflow-div-padding {
+  padding-bottom: 2rem
+}
+/* Contact Section */
+
+.contact-section {
+  background-color: #9FABB2;
+  margin-top: 5rem;
+  text-align: left;
+  color: #4C545D;
+  padding: 3% 10%;
+
+}
+
+.contact-links {
+  margin-bottom: 1rem;
+  color: #4C545D;
+}
+
+.programmer-info {
+  text-align: center;
+  color: #4C545D;
+  font-size: 0.7rem;
+}
+
+.footer-image {
+  width: 50px;
+}
+
+.social-media-icon {
+  text-align: right;
+}
+
+.footer-color {
+  color:  #4C545D;
+}
+
+.icon {
+  padding-left: 1rem
+}
+
+.info-anchor {
+  text-decoration: underline;
+  color: #475CFF;
+}
+
+@media (max-width: 768px) {
+  .padding-type-1 {
+    padding: 16% 5% 3%;
+  }
+
+  .padding-type-2 {
+    padding: 16% 5% 3%;
+  }
+
+
+  /* Keep Track Section */
+
+  .keep-track {
+    padding: 12% 5% 3%;
+  }
+
+  .keep-track-text {
+    text-align: center;
+    padding: 0
+  }
+
+  .computer-image {
+    margin-bottom: 4rem;
+  }
+
+  .track-text {
+    line-height: inherit;
+  }
+
+  .text-margin {
+    padding: 0;
+    margin-bottom: 4rem
+  }
+  /* Download Button */
+  .button-div {
+    display: block;
+    width: 70%;
+    margin: 0 15%;
+    padding-bottom: 1rem;
+  }
+
+  /* Workflow Section */
+  .workflow-text {
+    padding-bottom: 5rem
+  }
+
+  .workflow-div-padding {
+    padding-bottom: 3rem;
+  }
+
+  .padding-type-track {
+    padding:0 0 3rem;
+  }
+
+  /* Promoters Section */
+
+  .promoters-col {
+    display: block;
+    padding-bottom: 4rem;
+  }
+
+  .contact-links {
+    margin-bottom: 2rem;
+  }
+
+
+  /* contact */
+  .contact-section {
+    text-align: center;
+    padding: 10%;
+  }
+
+  .social-media-icon {
+    text-align: center;
+  }
+
+  .footer-image {
+    margin-bottom: 2rem;
+  }
+}
